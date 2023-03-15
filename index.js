@@ -186,3 +186,9 @@ document.querySelector("#submit").addEventListener("click", () => {
   }, 1500);
   window.scrollTo(0, 0);
 });
+
+// Redirecting in a new html file when Blog button is clicked
+document.getElementById("blog-button").addEventListener("click", ()=>{
+  // window.location.href = ("blog.html")
+  window.open("blog.html", "_blank");
+})
