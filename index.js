@@ -49,11 +49,13 @@ const loadQuiz = async () => {
   const data = await res.json;
   quizData = data;
   displayQuiz(data);
+  console.log('XX---->', quizData);
+
 };
 
 // Displaying quiz on quiz page
 const displayQuiz = (data) => {
-  if (!data) {
+  if (data) {
     quizContainer.innerHTML = "";
     return;
   }
