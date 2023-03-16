@@ -9,16 +9,32 @@
 <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <div class="bg-neutral-300">
-        <h1 class="text-6xl text-center py-5 font-serif font-black">Some Questions And Their Answers!!!!</h1>
+    <div class="bg-neutral-300 p-10">
+        <h1 class="text-6xl text-center my-4 font-serif font-black">Some <span class="text-red-700">Questions</span> And Their <span class="text-emerald-700">Answers!!!!</span></h1>
 
         <div class="text-2xl">
-            <p class="text-3xl">1. Difference between map(), filter(), find(), forEach()</p>
+            <p class="text-3xl font-bold">1. Difference between map(), filter(), find(), forEach()</p>
             <p>Answer:</p>
             <p><span class="underline text-3xl">map():</span> map() is a javascript function that transform the array of an elements using callback function for each element and return a new array.</p>        
             <p><span class="underline text-3xl">filter():</span> filter() is a built-in function of javascript that return a new array on a condition by a callback function</p>        
             <p><span class="underline text-3xl">forEach():</span> forEach() is a function that provide function once for each element and doesn't modify original array, but it doesn't return an array</p>        
             <p><span class="underline text-3xl">find():</span> find() find() also a built in function of javascript that satisfy a specific condition and returns only the first matching element and it also doesn't return an array.</p>        
+        </div>
+        <br>
+        <!--? question 2 -->
+        <div class="text-2xl">
+            <p class="text-3xl font-bold">2. Difference between local storage, session storage and cookies </p>
+            <p>Answer:</p>
+            <p><span class="underline text-3xl">LocalStorage:</span>  
+                LocalStorage is a built-in web browser system which allows to store Key and Value pairs on the user's specific browser.LocalStorage data never expires.
+            </p>  
+            <p><span class="underline text-3xl">Session Storage:</span>  
+                SessionStorage is similar to LocalStorage allows to store Key and Value pairs on the user's browser, but only accessible for the duration of the user's use the browser.It is only accessible during the browsing session.Once the user close the browser the SessionStorage data is deleted.  
+            </p>  
+            <p><span class="underline text-3xl">Cookies:</span> 
+                Cookies are small text files that a website stores on a user's device. They are commonly used to track user activity and preferences on a website. The website can access the cookie and read it when the user revisits the website in the future.
+            </p>  
+            
 
         </div>
 
